@@ -17,14 +17,14 @@ const gulp = require('gulp'),
 
 
 gulp.task('sass',()=>{
-	gulp.src('./src/sass/*.scss')
+	gulp.src('./css/*.scss')
 	.pipe(sass({outputStyle: 'expanded'}))
 	.pipe(rename({'suffix' : '.min'}))
 	.pipe(cssnano())
 	.pipe(gulp.dest('./css'));
 })
 gulp.task('default',()=>{
-	gulp.watch('./src/sass/*.scss',['sass']);
+	gulp.watch('./css/*.scss',['sass']);
 })
 //sass编译
 
