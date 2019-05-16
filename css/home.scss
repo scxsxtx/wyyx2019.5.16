@@ -206,7 +206,7 @@ a{color: #333;}
 .yx-cp-m-tabNav{
 	width: 1090px;
 	height: 30px;
-	background: red;
+	
 
 	position: absolute;	
 	top:120px;
@@ -363,7 +363,7 @@ a{color: #333;}
 .yx-cp-m-cartEnter .yx-sp-bg{
     color: #fff;
     border-radius:10px;
-    background: red;
+   background: red;
 }
 
 
@@ -2136,6 +2136,14 @@ img {
 .yx-cp-m-foot .yx-cp-m-siteInfo .yx-cp-copyright a, .yx-cp-m-foot .yx-cp-m-siteInfo .yx-cp-copyright span.yx-cp-cr-text {
     color: #999;
     margin-right: 15px;
+}
+.yx-cp-police span a{
+     color: #999;
+}
+.yx-cp-shield img{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 .yx-cp-m-foot .yx-cp-m-siteInfo .yx-cp-nav .yx-cp-text {
     color: #999;
